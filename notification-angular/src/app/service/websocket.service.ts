@@ -2,7 +2,6 @@ import { Injectable, EventEmitter } from '@angular/core';
 import { environment } from '../../environments/environment';
 import * as Stomp from 'stompjs';
 import * as SockJS from 'sockjs-client';
-import { NotificationService } from '../service/notification.service';
 
 @Injectable({
   providedIn: 'root'
